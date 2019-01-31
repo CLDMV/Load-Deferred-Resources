@@ -1,3 +1,5 @@
+The following settings are used at https://skalman.github.io/UglifyJS-online/
+
 ```
 // Documentation of the options is available at https://github.com/mishoo/UglifyJS2
 {
