@@ -10,27 +10,31 @@ You can see examples of this working in the examples folder.
 ## Browser Support
 Currently this code supports the following browsers:
 
-Browser | Version
------------- | -------------
-Chrome | 4.0+
-IE | 9.0+
-Firefox | 3.0+
-Safari | 3.1+
-Opera | 9.5+
+Browser | Version | Usage % not covered
+------------ | ------------- | -------------
+Chrome | 4.0+ | 0%
+IE | 9.0+ | 0.17%
+Firefox | 3.0+ | 0.01%
+Safari | 3.1+ | 0%
+Opera | 9.5+ | 0.01%
 
-## Planned Update
+Note: Stats from https://caniuse.com/usage-table as of 2019-01-31
+
+## Planned Update (Maybe)
+
+> After looking at https://caniuse.com/usage-table is seems that only 0.19% of internet users are not supportted as of RIGHT now. With the below "planned" update that would bring it down to 0.03%. Nearly all of that are people running browsers and operating systems the Software creator doesn't even support anymore and hasn't for years.
 
 The next planned update will have a broader browser support version which will support older browsers by removing getElementsByClassName [replaced with getElementsByTagName and .className] and setAttribute [replaced with createAttribute and setAttributeNode].
 
 Below are the browsers planned to be supported:
 
-Browser | Version
------------- | -------------
-Chrome | 1.0+
-IE | 6.0+
-Firefox | 3.0+
-Safari | 3.1+
-Opera | 9.5+
+Browser | Version | Usage % not covered
+------------ | ------------- | -------------
+Chrome | 1.0+ | 0%
+IE | 6.0+ | 0.01%
+Firefox | 3.0+ | 0.01%
+Safari | 3.1+ | 0%
+Opera | 9.5+ | 0.01%
 
 Unfortunately to my knowledge to support anything older I would need to itterate over all nodes in the document via .childNodes and search for the specific ones we want to modify. Making the code much larger than it is and the usage of the browsers below the above table is probably close to none.
 
