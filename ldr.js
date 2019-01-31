@@ -13,7 +13,7 @@
 				cleanup_nodes.push(node);
 				var replacement = document.createElement("div");
 				replacement.setAttribute("class", d + "deferred-resources-loaded");
-				replacement.innerHTML = node.textContent;
+				replacement.innerHTML = node.innerHTML;
 				var deferred_scripts = replacement.getElementsByTagName('script');
 				if (deferred_scripts.length > 0) {
 					var scripts = [];
