@@ -70,7 +70,7 @@ The following settings are used at https://skalman.github.io/UglifyJS-online/
     keep_classnames  : false,
     keep_fnames      : false,
     properties       : false,
-    reserved         : ['l','o','a','d','u'],
+    reserved         : ['l','o','a','d','i','t','ldr'],
     safari10         : false,
     toplevel         : false
   },
