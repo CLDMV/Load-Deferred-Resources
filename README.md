@@ -45,4 +45,4 @@ Unfortunately to my knowledge to support anything older I would need to itterate
 ## ❤️ Contributors
 
 This project exists thanks to all the people who contribute. [[Contributors](https://github.com/CLDMV/Load-Deferred-Resources/graphs/contributors)].
-<a href="https://github.com/CLDMV/Load-Deferred-Resources/graphs/contributors"><img src="https://image.cldmv.net/github/contributors/?repo=Load-Deferred-Resources" /></a>
+<a href="https://github.com/CLDMV/Load-Deferred-Resources/graphs/contributors"><img src="https://image.cldmv.net/github/contributors/?repo=Load-Deferred-Resources&v2" /></a>
