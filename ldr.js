@@ -5,7 +5,7 @@
  * @Project: Load-Deferred-Resources
  * @Filename: ldr.js
  * @Last modified by:   Nate Hyson <CLDMV> (nate+git-public@cldmv.net)
- * @Last modified time: 2020-09-13 20:13:35 -07:00 (1600053215)
+ * @Last modified time: 2020-09-13 20:21:05 -07:00 (1600053665)
  * @Copyright: Copyright (c) 2013-2020 Catalyzed Motivation Inc. All rights reserved.
  */
 
@@ -151,7 +151,7 @@
 				var node = cleanup_nodes[c];
 				node.parentElement.removeChild(node);
 			};
-			var event = createEvent("ldr.loaded", 'complete');
+			var event = createEvent("ldr.processing", required);
 			dispatchEvent(event);
 		}
 	};
